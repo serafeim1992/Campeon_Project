@@ -1,9 +1,5 @@
-import logo from './logo.svg';
-import Spinner from './components/loading-spinner/Spinner';
-import RandomImages from './components/random-images/RandomImages';
 import Header from './components/header/Header';
-
-import './App.css';
+import RandomImages from './components/random-images/RandomImages';
 
 const App = () => {
   return (
