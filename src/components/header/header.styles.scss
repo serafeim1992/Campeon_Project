@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+
+    &__title{
+        font-size: 120px;
+        font-family: 'Lobster', cursive;
+        background: linear-gradient(155deg, rgba(0,0,0,1) 1%, rgba(0,255,222,1) 32%, rgba(0,105,172,1) 75%, rgba(240,231,239,1) 100%);
+          -webkit-background-clip: text;
+          color: transparent;
+
+          @media (max-width:800px){
+              font-size: 50px;
+          }
+    }
+}
